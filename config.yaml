@@ -1,0 +1,21 @@
+# config.yaml
+email:
+  imap_host: "imap.gmail.com"
+  imap_port: 993
+  username: "woutermaessen@thehyve.nl"
+  app_password: "BeeKeeper@0526"
+
+filter:
+  from_address: "henk-jan@thehyve.nl"
+  subject: "cBioDemoSever Users Report — New Entries"
+
+drive:
+  drive_folder_id: "REPLACE_WITH_DRIVE_FOLDER_ID"   # e.g., 0Bxx... (required)
+  weekly_folder_name: "Demo Server Notifications"
+
+sheets:
+  master_sheet_id: "REPLACE_WITH_MASTER_SHEET_ID"   # Google Sheet ID (required)
+  master_sheet_range: "Sheet1!A:C"
+
+logging:
+  level: "INFO"
