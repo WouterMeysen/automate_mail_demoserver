@@ -10,11 +10,11 @@ filter:
   subject: "cBioDemoSever Users Report — New Entries"
 
 drive:
-  drive_folder_id: "REPLACE_WITH_DRIVE_FOLDER_ID"   # e.g., 0Bxx... (required)
+  drive_folder_id: "1MHz2RJvJ6pryoQmwQACYGbxYNhq6afQ1"   # e.g., 0Bxx... (required)
   weekly_folder_name: "Demo Server Notifications"
 
 sheets:
-  master_sheet_id: "REPLACE_WITH_MASTER_SHEET_ID"   # Google Sheet ID (required)
+  master_sheet_id: "17KVtNOpp0ug0ydOJaNWtTDFRhqaRmXOA_L5SwABmv5s"   # Google Sheet ID (required)
   master_sheet_range: "Sheet1!A:C"
 
 logging:
